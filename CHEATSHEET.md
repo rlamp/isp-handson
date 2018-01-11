@@ -1,7 +1,7 @@
 # ISP SYS ADMIN CHEATSHEET
 
 # 1. Prepare environment
-Download [installation script](https://github.com/rlamp/isp-handson/master/install.sh) and run it to install all necessery stuff. Do not forget to `Reinitialize the MAC address of all network cards` when cloning images! Also pay attention when setting machines' network adapter `Attach to` to select `NAT network` and not `NAT`.
+Download [installation script](https://raw.githubusercontent.com/rlamp/isp-handson/master/install.sh) and run it to install all necessery stuff. Do not forget to `Reinitialize the MAC address of all network cards` when cloning images! Also pay attention when setting machines' network adapter `Attach to` to select `NAT network` and not `NAT`.
 
 
 ### 1.1 Change machine's hostname

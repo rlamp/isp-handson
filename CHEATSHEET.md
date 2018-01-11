@@ -276,7 +276,7 @@ On `radius2`, create a **new supplicant (end-user)**. Open `/etc/freeradius/user
 Restart FreeRADIUS with `sudo sevice freeradius restart`.
 
 ##### Authenticating IPsec RoadWarriors with Radius
-*See [2.3 VPN with IPsec](#23_VPN_with_IPsec_8) to setup basic IPsec configurations.
+*See [2.3 VPN with IPsec](#23-vpn-with-ipsec) to setup basic IPsec configurations.
 For all further references see [this example](https://www.strongswan.org/testing/testresults/ikev2/rw-eap-md5-radius/).*
 
 On `gateway` add new IPsec connection to `/etc/ipsec.conf` ([example](https://www.strongswan.org/testing/testresults/ikev2/rw-eap-md5-radius/moon.ipsec.conf)):
